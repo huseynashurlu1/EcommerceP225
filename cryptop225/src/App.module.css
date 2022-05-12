@@ -1,0 +1,84 @@
+.Header{
+    background-color: #333;
+    padding: 14px 0 10px;
+    text-align: center;
+}
+
+.FeatureImage {
+    width: 100%;
+}
+
+.Left{
+    width: 40%;
+    position: relative;
+}
+
+.Time{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.HeartRate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.HeartRate i{
+    color: red;
+    font-size: 60px;
+    animation: heart 1s ease-in-out infinite;
+}
+
+@keyframes heart {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0.8);
+    }
+}
+
+
+
+.HeartRate p{
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+
+.Right{
+    width: 50%;
+}
+
+.ImageAll{
+    display: flex;
+    margin-top: 20px;
+}
+
+.ImageAll div{
+    width: 25%;
+}
+
+.ImageAll div img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.Button{
+    padding: 14px 50px;
+    background-color: silver;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 30px;
+    margin-right: 20px;
+}
